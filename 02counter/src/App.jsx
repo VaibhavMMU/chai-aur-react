@@ -17,11 +17,11 @@ function App() {
     <>
     <h1>Chai Aur React {counter}</h1>
     <h2>Counter Value : {counter}</h2>
-
-    <button onClick={addValue}
-    >Add Value</button>
-    <br />
-    <button onClick={decreseValue}>Decrese Value</button>
+    <div style={{display:'flex'}}>
+      <button style={{background: "yellow"}} onClick={addValue}>Add Value</button>
+      &nbsp;
+      <button style={{background: "yellow"}} onClick={decreseValue}>Decrese Value</button>
+    </div>
     <footer>Footer Counter value is {counter}</footer>
     </>
   )
